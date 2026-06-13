@@ -1,0 +1,644 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 100vh; /* Ajustado para 100vh para garantir que o body ocupe a altura toda da tela */
+    background-image: url("fundo_BD.png");
+    background-color: #000000;
+    
+    /* Comandos para adaptar a imagem automaticamente */
+    background-size: cover;      /* Força a imagem a cobrir toda a tela se adaptando proporcionalmente */
+    background-position: center;  /* Centraliza a imagem na tela */
+    background-repeat: no-repeat; /* Impede que a imagem fique se repetindo em mosaico */
+    background-attachment: fixed; /* Opcional: mantém o fundo fixo ao rolar a página */
+}
+
+  .logo{
+    height: 50px;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    text-shadow: 
+      -2px -2px 0px #000000, 
+      -2px 2px 0px #000000,                    
+      2px -2px 0px #000000,                  
+      2px 0px 0px #000000;
+    
+    /*5px 2px 0px #000000;*/
+  }
+
+  #nim1{
+    font-size: 4em;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 3em;
+    text-shadow: 
+    -2px -2px 0px #000000, 
+    -2px 2px 0px #000000,                    
+    2px -2px 0px #000000,                  
+    2px 0px 0px #000000;
+  
+  /*5px 2px 0px #000000;*/
+    color: #6de6d5;
+    margin: 0 0 5px;
+  }
+
+  #titulo-principal{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    font-size: 4em;
+    text-shadow: 
+    -2px -2px 0px #000000, 
+    -2px 2px 0px #000000,                    
+    2px -2px 0px #000000,                  
+    2px 0px 0px #000000;
+  
+  /*5px 2px 0px #000000;*/
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+
+ /* #subtitulo{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    font-size: 2em;
+    text-shadow: 5px 2px 0px #000000;
+    color: #ffffff;
+    margin: 0 0 5px;
+  }*/
+  
+  .page-subtitle {
+    
+    color: #ffffff;
+    margin-top: 10px;
+    text-shadow: 
+    -2px -2px 0px #000000, 
+    -2px 2px 0px #000000,                    
+    2px -2px 0px #000000,                  
+    2px 0px 0px #000000;
+  
+  /*5px 2px 0px #000000;*/
+  }
+
+  p {
+    text-align: center;
+    padding: 0em;
+    font-size: 1em;
+    text-shadow: 5px 2px 0px #000000;
+    color: #d3eb68;
+  }
+
+  #interrocacao{
+    text-align: center;
+    padding: 0em;
+    font-size: 3em;
+    text-shadow: 5px 2px 0px #000000;
+    color: #6875eb;
+  }
+
+  .imagens1{
+    height: 600px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: white;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    padding: 15px 32px;
+    background: white;
+    font-size: 50px;
+    cursor: pointer;
+
+  }
+
+  .button2 {
+    text-align: center;
+    background-color: #4cafaf;
+    border-color: #ffffff;
+    border-style: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-table;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+
+  #bact{
+    cursor: url("cur117.cur"), default;
+  }
+
+  #escada{
+    cursor: url("cur117.cur"), default;
+  }
+
+  #coxes{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #cox1_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #cox2_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #mas_button{
+    display:none;
+    text-align: center;
+    ;
+  }
+
+  #risco_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #outros_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #nada_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #peso{
+    border-style: double;
+    height: 30px;
+    width: 80px;
+    font-size: 30px;
+  }
+
+  #escada_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #tylex_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #tramal_button{
+    display:none;
+    text-align: center;
+    
+  }
+  
+
+  #rce_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #bacteria_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #gram_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #leve_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #profilaxia_button{
+    display:none;
+    text-align: center;
+    
+  }
+
+  #titulo_alternativo{
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    text-shadow: 5px 2px 0px #000000;
+  }
+
+  #praque{
+    width: 1000px;
+    height: 100px;
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 1px;
+    background: #ffffff;
+   
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-size: 2em;
+    text-shadow: 
+    -2px -2px 0px #000000, 
+    -2px 2px 0px #000000,                    
+    2px -2px 0px #000000,                  
+    2px 0px 0px #000000;
+    
+    /*5px 2px 0px #000000;*/
+    margin: 0 0 5px;
+  }
+
+
+
+  a {
+    color:#ffffff;
+    text-decoration: normal;
+    text-shadow: 
+    -2px -2px 0px #000000, 
+    -2px 2px 0px #000000,                    
+    2px -2px 0px #000000,                  
+    2px 0px 0px #000000;
+  
+  /*5px 2px 0px #000000;*/
+
+  }
+
+  a:visited {
+    color: antiquewhite;
+    text-shadow: 
+    -2px -2px 0px #000000, 
+    -2px 2px 0px #000000,                    
+    2px -2px 0px #000000,                  
+    2px 0px 0px #000000;
+  
+  /*5px 2px 0px #000000;*/
+  }
+
+  a:hover {
+    text-decoration: underline;
+    text-shadow: 
+    -2px -2px 0px #000000, 
+    -2px 2px 0px #000000,                    
+    2px -2px 0px #000000,                  
+    2px 0px 0px #000000;
+  
+  /*5px 2px 0px #000000;*/
+  }
+
+  .tabela{
+    text-align: center;
+  }
+
+  .sub{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    font-size: 4em;
+    text-shadow: 
+    -2px -2px 0px #000000, 
+    -2px 2px 0px #000000,                    
+    2px -2px 0px #000000,                  
+    2px 0px 0px #000000;
+    
+    /*5px 2px 0px #000000;*/    color: #ffffff;
+    margin: 0 0 5px;
+  }
+
+  #med_cir {
+    text-align: center;
+    background-image: url("https://img1.wsimg.com/isteam/ip/a2dfd3e6-a5ca-4acf-b15e-7bea5443d2c0/5cdbeaa9-c585-470d-b45e-bb12faf5c991.png");
+    height: 800px;
+    width: 650px;
+  }
+ 
+  #med_cir:hover {
+    text-align: center;
+    background-image: url("https://www.researchgate.net/profile/Md-Khursid-Ansari/publication/350286689/figure/fig1/AS:1004169095823363@1616423977110/Figure-No-1-Medieval-period-physician-examining-Quaroorah.jpg");
+  }
+
+  .conclusao{
+    font: 'Roboto';
+    font-size: 3em;
+    color: #c8eb68;
+    text-shadow: 
+    -2px -2px 0px #000000, 
+    -2px 2px 0px #000000,                    
+    2px -2px 0px #000000,                  
+    2px 0px 0px #000000;
+  }
+
+
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .div-select {
+    width: 250px;
+    /* Tamanho final do select */
+    overflow: hidden;
+    /* Esconde o conteúdo que passar do tamanho especificado */
+}
+
+.seletor {
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-select.gif) no-repeat #31b4ae;
+    /* Imagem de fundo (Seta) */
+    background-position: 205px center;
+    /*Posição da imagem do background*/
+    width: 270px;
+    /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 58px;
+    /* altura do select, importante para que tenha a mesma altura em todo os navegadores */
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fonte do Select */
+    font-size: 30px;
+    /* Tamanho da Fonte */
+    padding: 13px 20px 13px 12px;
+    /* Configurações de padding para posicionar o texto no campo */
+    color: #fff;
+    /* Cor da Fonte */
+    text-indent: 0.01px;
+    /* Remove seta padrão do FireFox */
+    text-overflow: "";
+}
+
+/* Remove seta padrão do FireFox */
+.seletor::-ms-expand {
+    display: none;
+}
+/* Remove seta padrão do IE*/
+
+/* Para o slide 1/////////////////////////////////////////////////////////////////////*/
+
+/* Configuração global para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Mantendo o fundo preto padrão */
+    font-family: "Roboto Mono", monospace;
+    
+    /* Centraliza o slide inteiro na tela do usuário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container que envolve o título, a logo e o botão */
+.conteudo-slide {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos de cima para baixo */
+    align-items: center;
+    justify-content: space-between; /* Garante um bom espaçamento entre o título e o botão */
+    width: 90vw;
+    height: 85vh; /* Limita a altura para o botão nunca sumir ou exigir rolagem */
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Estilização interna do seu H1 para que ele respeite os limites */
+h1 {
+    color: #ffffff;
+    max-width: 800px;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 3px;
+    height: 2px;
+    background: #1e3a8a; /* Linha azul combinando com o botão */
+    margin: 20px auto;
+    width: 50%;
+}
+
+/* Mantém a sua logo ajustável */
+.logo {
+    max-height: 150px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+/* Estrutura idêntica do botão de navegação */
+.navegacao {
+    margin-top: auto; /* Empurra o botão sempre para o final do container */
+}
+
+.btn-proximo {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #1e3a8a; /* Azul institucional */
+    padding: 12px 40px;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efeito Hover para dar feedback visual */
+.btn-proximo:hover {
+    background-color: #0d9488; /* Verde teal idêntico ao outro slide */
+    transform: scale(1.05);
+}
+
+/* Para o slide 2/////////////////////////////////////////////////////////////////////*/
+
+/* Remove margens padrão do navegador e define a cor de fundo da página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fundo preto para combinar com o tema do banco de dados */
+    font-family: "Roboto Mono", monospace;
+    
+    /* Centraliza o container principal na tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container que segura a imagem e o botão */
+.conteudo-slide {
+    display: flex;
+    flex-direction: column; /* Coloca a imagem em cima e o botão embaixo */
+    align-items: center;
+    justify-content: center;
+    width: 95vw;  /* Ocupa no máximo 95% da largura da tela */
+    height: 95vh; /* Ocupa no máximo 95% da altura da tela */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* A mágica para a imagem se adaptar automaticamente sem distorcer */
+.imagem-adaptavel {
+    max-width: 100%;    /* Impede que a imagem passe da largura da tela */
+    max-height: 80vh;   /* Reserva espaço na altura para o botão "próximo" não sumir */
+    object-fit: contain; /* Garante que a imagem mantenha a proporção (sem esticar) */
+    border-radius: 4px;  /* Opcional: borda levemente arredondada na foto */
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); /* Opcional: sombra leve para destacar do fundo */
+}
+
+/* Estilização da barra de navegação/botão */
+.navegacao {
+    margin-top: 20px; /* Espaçamento entre a imagem e o link */
+}
+
+.btn-proximo {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #1e3a8a; /* Azul institucional */
+    padding: 12px 30px;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efeito ao passar o mouse no botão */
+.btn-proximo:hover {
+    background-color: #0d9488; /* Muda para verde teal */
+    transform: scale(1.05);     /* Dá um leve zoom de feedback */
+}
+
+
+/* Configuração geral do slide 3//////////////////////////////////////////////////////////////////////////////////////////////*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fundo preto */
+    font-family: "Roboto Mono", monospace;
+    
+    /* Centraliza o container principal na tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw; /* Ocupa toda a largura disponível */
+    box-sizing: border-box;
+}
+
+/* Container principal que segura o título e a imagem */
+.conteudo-slide {
+    display: flex;
+    flex-direction: column; /* Coloca o título em cima e a imagem embaixo */
+    align-items: center;
+    justify-content: flex-start; /* Inicia o alinhamento do topo */
+    width: 100%; /* Ocupa toda a largura do body */
+    max-width: 1600px; /* Opcional: limite de largura para desktops muito grandes */
+    padding: 20px 10px; /* Espaçamento interno */
+    box-sizing: border-box;
+}
+
+/* Estilização do Título no Alto */
+.titulo-alto {
+    color: #ffffff;
+    font-size: 2rem; /* Tamanho grande do título */
+    text-align: center;
+    margin: 0 0 10px 0; /* Margem inferior generosa para separar do título */
+    width: 100%; /* Garante que o título ocupe a largura total */
+}
+
+/* Container forçado para expandir o uso da altura da tela */
+.container-imagem {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Faz com que este container cresça para preencher o espaço disponível */
+}
+
+/* Estilo da Imagem */
+.imagem-maxima {
+    max-width: 100%;    /* Impede que a imagem ultrapasse a largura da tela */
+    max-height: 70vh;   /* Define uma altura máxima baseada na viewport (ex: 70% da altura da tela) */
+    
+    /* As seguintes linhas garantem que a imagem cresça o máximo possível dentro do espaço disponível sem distorcer */
+    width: auto; 
+    height: auto; 
+    min-height: 400px; /* Altura mínima para garantir que a imagem seja grande mesmo em telas pequenas */
+    
+    object-fit: contain; /* Mantém a proporção original da imagem */
+    border-radius: 8px; /* Bordas arredondadas para um visual mais moderno */
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2); /* Sombra para destacar a imagem */
+}

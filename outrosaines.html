@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outros aines</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        AINES
+    </h1>
+
+    <hr>
+    <button onclick="risco()">Risco</button>
+    <input type="button" class="button2" value="Outros AINES" id="outros" onclick="outros()">
+
+    <a href="https://www.bulas.med.br/"><button id="Como prescrever?">Como prescrever?</button></a>
+
+    <button onclick="limpar()"></button>
+    
+    
+   
+
+    <p>
+    <div id="risco_button">
+        <img src="grafico_risco.png"/>
+    </div> 
+    </p>
+
+    <p>
+        <div id="outros_button">
+            <img src="todosaines.png"/>
+        </div> 
+    </p>
+
+    <p>
+        <div id="nada_button">
+            <img src="nada.png"/>
+        </div> 
+    </p>
+
+
+
+    até aqui!!!!!
+
+    <table>
+    <tr>
+        <td>
+            <select class="seletor" name="medicamento" id="medicamento">
+                <option value="">Medicamento</option>
+                <option value="par">Paracetamol</option>
+                <option value="dip">Dipirona</option>
+                <option value="nim">Nimesulida</option>
+                <option value="diclo">Diclofenaco</option>
+                <option value="etori">Etoricoxibe</option>
+            </select>
+        </td>
+       
+        <td>
+            <select class="seletor" name="paciente" id="paciente">
+                <option value="">Paciente</option>
+                <option value="par">Adulto</option>
+                <option value="dip">Criança</option>
+
+            </select>
+        </td>
+       
+        <td>
+            <label>Peso:</label>
+            <input type="number" id="peso">
+        </td>
+        <td>
+            <input type="button" id="btnInfo" value="Posologia" onclick="posologia()"/>
+        </td>
+    
+    </tr>
+    </table>
+
+    <p><h2 id="posologia"></h2></p>
+    <p><h2 id="ou"></h2></p>
+    <p><h2 id="posologia2"></h2></p>
+
+    <a href="opioides.html"><p>próximo</p></a>
+
+    <script src="script.js"></script>
+     
+</body>
+</html>
