@@ -45,6 +45,20 @@ body {
   /*5px 2px 0px #000000;*/
     color: #6de6d5;
     margin: 0 0 5px;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+  }
+
+  .h1-index {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+  }
+
+  .h1-obrigado {
+    font-size: 5rem !important;
   }
 
   #titulo-principal{
@@ -478,6 +492,10 @@ h1 {
     max-width: 800px;
     font-size: 3rem;
     margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
 }
 
 hr {
@@ -641,4 +659,114 @@ body {
     object-fit: contain; /* Mantém a proporção original da imagem */
     border-radius: 8px; /* Bordas arredondadas para um visual mais moderno */
     box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2); /* Sombra para destacar a imagem */
+}
+
+
+/* Para o slide 57/////////////////////////////////////////////////////////////////////////////////////////////////////////*/ 
+/* Configurações do Slide 57 */
+
+/* Configuração do fundo geral da página (lado direito livre) */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Cor cinza escura para o lado direito de fundo */
+    font-family: "Roboto Mono", monospace;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start; /* Alinha o conteúdo totalmente à esquerda */
+    align-items: center;
+}
+
+/* O Painel Preto que ocupa estritamente o lado esquerdo */
+.painel-esquerdo {
+    background-color: #000000; /* Fundo totalmente preto */
+    width: 50vw;               /* Ocupa exatamente metade da largura da tela (50%) */
+    height: 100vh;             /* Ocupa toda a altura da tela */
+    box-sizing: border-box;
+    padding: 60px 40px;        /* Espaçamento interno confortável */
+    
+    /* Organização interna vertical para Título, Texto e Botões */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: flex-start;   /* Força tudo a alinhar na esquerda */
+}
+
+/* Estilização do Título */
+.titulo-conclusao {
+    color: #ffffff;            /* Letras Brancas */
+    text-align: left;
+    font-size: 2.5rem;
+    margin: 0;
+    width: 100%;
+}
+
+/* Linha horizontal alinhada à esquerda */
+.linha-esquerda {
+    border: 0;
+    height: 3px;
+    background: #1e3a8a;       /* Linha azul de destaque */
+    margin: 15px 0 0 0;        /* Margem zero nas laterais fixa ela na esquerda */
+    width: 30%;                /* Comprimento reduzido da linha */
+}
+
+/* Bloco de Texto */
+.container-texto-esquerdo {
+    flex-grow: 1;
+    margin-top: 40px;
+    width: 100%;
+}
+
+/* Lista de tópicos em branco alinhada na esquerda */
+.lista-conclusao {
+    list-style-type: square;   /* Marcadores em formato de quadrado */
+    color: #ffffff;            /* Letras Brancas */
+    font-size: 1.2rem;
+    line-height: 2;            /* Espaçamento confortável entre linhas */
+    padding-left: 20px;        /* Recuo padrão para os marcadores */
+    margin: 0;
+}
+
+.lista-conclusao li {
+    margin-bottom: 15px;
+    text-align: left;          /* Força o alinhamento esquerdo do texto */
+}
+
+/* Barra de Navegação alinhada na base do painel */
+.navegacao-esquerda {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: flex-start; /* Botões começam da esquerda */
+    margin-top: 20px;
+}
+
+/* Estilo Base dos Botões (Mantendo o padrão anterior) */
+.btn-nav {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-proximo { background-color: #1e3a8a; }
+.btn-proximo:hover { background-color: #0d9488; transform: scale(1.03); }
+
+.btn-anterior { background-color: #334155; }
+.btn-anterior:hover { background-color: #475569; transform: scale(1.03); }
+
+/* Responsividade para Telas Menores/Celulares (O painel vira tela cheia) */
+@media (max-width: 768px) {
+    .painel-esquerdo {
+        width: 100vw; /* Em telas pequenas, o painel assume 100% da largura */
+        padding: 30px 20px;
+    }
+    .titulo-conclusao { font-size: 2rem; }
+    .lista-conclusao { font-size: 1rem; }
 }
