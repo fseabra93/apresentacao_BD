@@ -753,6 +753,7 @@ body {
     border-radius: 6px;
     font-size: 0.9rem;
     transition: background-color 0.3s, transform 0.2s;
+    margin: 5px;
 }
 
 .btn-proximo { background-color: #1e3a8a; }
@@ -760,6 +761,9 @@ body {
 
 .btn-anterior { background-color: #334155; }
 .btn-anterior:hover { background-color: #475569; transform: scale(1.03); }
+
+.btn-download { background-color: #10b981; }
+.btn-download:hover { background-color: #059669; transform: scale(1.03); }
 
 /* Responsividade para Telas Menores/Celulares (O painel vira tela cheia) */
 @media (max-width: 768px) {
